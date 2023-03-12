@@ -17,6 +17,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  align-content: center;
+  padding: 40px;
 
   .headerLeft {
     display: flex;
@@ -40,7 +42,7 @@ header {
     }
 
     span {
-      margin: 0px 101px 0px 28px;
+      margin: 0px 80px 0px 10px;
     }
   }
 }  
