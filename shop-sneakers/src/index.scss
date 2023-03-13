@@ -6,6 +6,10 @@ body {
   background-color: #e7f6ff;
 }
 
+* {
+  font-family: 'Inter', system-ui;
+}
+
 .wrapper {
   background: #FFFFFF;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
@@ -34,6 +38,10 @@ header {
         margin: 0;
     }
 
+    p {
+      opacity: 0.5;
+    }
+
     .text-logo{
       text-transform: uppercase;
     }
@@ -55,10 +63,8 @@ header {
 }  
 
 .content {
-  h1 {
     padding: 40px;
     margin: 0px;
-  }
 }
 
 .card {
@@ -66,6 +72,29 @@ header {
   border-radius: 40px;
   padding: 30px;
   width: 170px;
+  margin-right: 18px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+  cursor: pointer;
+
+  // &:hover {
+  //   box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+  //   transform: translateY(-5px);
+  // }
+
+  .favorite {
+    position: absolute;
+    cursor: pointer;
+  }
+
+  span {
+    font-size: 13px;
+    opacity: 0.5;
+    text-transform: uppercase;
+  }
+
+  b {
+    font-size: 14 px;
+  }
 
   .cardBottom {
     display: flex;
@@ -89,3 +118,27 @@ header {
   }
 }
 
+.sneakers {
+  display: flex;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+
+  .search-block {
+    display: flex;
+    border: 1px solid #f3f3f3;
+    border-radius: 10px;
+    padding: 0px 15px;
+
+    input {
+      border: 0;
+      padding: 13px;
+      font-size: 16px;
+      width: 200px;
+    }
+  }
+}
