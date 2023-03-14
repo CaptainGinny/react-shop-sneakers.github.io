@@ -2,6 +2,25 @@
 function App() {
   return (
     <div className="wrapper">
+      <div className="overlay">
+        <div className="drawer">
+          <h2>Корзина</h2>
+
+          <div className="cartItem">
+            <img width={70} height={70} src="/img/sneakers/1.jpg" alt="Sneakers"/>
+            <div className="cartItem-wrapper">
+              <p>Мужские Кроссовки Nike Air Max 270</p>
+              <b>12 999 руб.</b>
+            </div>
+            <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove"/>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
       <header>
       <div className="headerLeft">
         <img width={40} height={40} src="/img/logo.svg" alt="logo"/>
@@ -42,7 +61,7 @@ function App() {
                 <b>12 999 руб.</b>
               </div>
               <button>
-                <img width={11} height={11} src="/img/plus.svg" alt="plus"/>
+                <img width={11} height={11} src="/img/btn-plus.svg" alt="plus"/>
               </button>
             </div>
           </div>
@@ -55,7 +74,7 @@ function App() {
                 <b>12 999 руб.</b>
               </div>
               <button>
-                <img width={11} height={11} src="/img/plus.svg" alt="plus"/>
+                <img width={11} height={11} src="/img/btn-plus.svg" alt="plus"/>
               </button>
             </div>
           </div>
@@ -68,7 +87,7 @@ function App() {
                 <b>8 499 руб.</b>
               </div>
               <button>
-                <img width={11} height={11} src="/img/plus.svg" alt="plus"/>
+                <img width={11} height={11} src="/img/btn-plus.svg" alt="plus"/>
               </button>
             </div>
           </div>
@@ -81,7 +100,7 @@ function App() {
                 <b>8 999 руб.</b>
               </div>
               <button>
-                <img width={11} height={11} src="/img/plus.svg" alt="plus"/>
+                <img width={11} height={11} src="/img/btn-plus.svg" alt="plus"/>
               </button>
             </div>
           </div>
